@@ -1,8 +1,25 @@
 body {
     display: flex;
     flex-direction: column;
+    margin: 0;
+    font-family: 'ubuntu', 'sans-serif';
+    justify-content: space-between;
 }
 
-.class {
-    
+.one {
+    background-color: #1F2937;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+button {
+    background-color: #3882F6;
+    font-size: 20px;
+    font-color: white;
 }
