@@ -5,15 +5,17 @@ body {
     font-family: 'ubuntu', 'sans-serif';
     justify-content: space-between;
     flex-direction: column;
-
+    height: 2000px;
 }
+
+/* Section one */
 
 .one {
     background-color: #1F2937;
     color: white;
     display: flex;
     flex-direction: column;
-    height: 300px;
+    height: 500px;
 }
 
 .header {
@@ -37,6 +39,19 @@ body {
     justify-content: space-between;
     margin-left: 100px;
     margin-right: 100px;
+    margin-top: 50px;
+}
+
+.left-one-mid {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 400px;
+}
+
+.one-header {
+    font-size: 48px;
 }
 
 .one-mid-span {
@@ -44,28 +59,39 @@ body {
     font-size: 18px;
 }
 
-.left-one-mid {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: left;
-    gap: 10px;
-}
-
-h1 {
-    font-size: 48px;
-}
 
 button {
     background-color: #3882F6;
-    font-size: 20px;
+    font-size: 18px;
     color: white;
     border-radius: 6px;
-    width: 20%;
+    width: 25%;
 }
 
+img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+}
 
+/* Section two */
+
+.two {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.two-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 36px;
+    color: #1F2937;
+}
+
+/* Footer */
 
 footer {
     display: flex;
