@@ -89,6 +89,7 @@ img {
     margin: 0;
     padding: 0px;
     flex: 0.5 1 auto;
+    height: 200px;
 }
 
 .two-header {
@@ -105,7 +106,7 @@ img {
 .middle-box {
     display: flex;
     justify-content: space-evenly;
-    align-items: center;
+    align-items: flex-start;
     flex: 1;
     color: #7B8183;
 }
@@ -115,13 +116,14 @@ img {
     flex-direction: column;
     align-items: center;
     width: 100px;
-    margin: 0;
+    margin-top: 50px;
 }
 
 .box-text {
     text-align: center;
     margin-top: 15px;
     width: 150px;
+    font-size: 18px;
 }
 
 .box-img {
@@ -162,6 +164,7 @@ img {
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 300px;
 }
 
 .blue-box {
