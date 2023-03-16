@@ -78,7 +78,7 @@ img {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 400px;
+    width: 500px;
 }
 
 /* Section two */
@@ -159,9 +159,9 @@ img {
 
 footer {
     display: flex;
-    background-color: #1F2937;
+    background-color: #BC81BF;
     color: white;
     justify-content: center;
     align-items: center;
-    padding: 30px;
+    padding: 40px;
 }
