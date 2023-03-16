@@ -86,16 +86,49 @@ img {
 .two {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    margin: 0;
+    padding: 0px;
+    flex: 0.5 1 auto;
 }
 
 .two-header {
+    margin-bottom: 0px;
+    margin-top: 0px;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     font-size: 36px;
     color: #5F9F89;
     text-shadow: 1px 2px 2px #7B8183;
+}
+
+.middle-box {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex: 1;
+    color: #7B8183;
+}
+
+.mid-boxes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100px;
+    margin: 0;
+}
+
+.box-text {
+    text-align: center;
+    margin-top: 15px;
+    width: 150px;
+}
+
+.box-img {
+    border: 5px solid #BC81BF;
+    width: 220px;
+    height: 220px;
+    border-radius: 6px;
 }
 
 /* Section three */
