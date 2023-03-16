@@ -11,8 +11,9 @@ body {
 /* Section one */
 
 .one {
-    background-color: #1F2937;
-    color: white;
+    background-color: #7B8183;
+    color: #BC81BF;
+    text-shadow: 3px 3px 8px black;
     display: flex;
     flex-direction: column;
     height: 500px;
@@ -89,6 +90,31 @@ img {
     align-items: center;
     font-size: 36px;
     color: #1F2937;
+}
+
+/* Section three */
+
+.three {
+    background: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 400px;
+}
+
+.quote {
+    font-size: 35px;
+    margin-left: 220px;
+    margin-right: 220px;
+
+}
+
+.quote-name {
+    margin-left: 220px;
+    margin-right: 220px;
+    font-size: 25px;
+    text-align: right;
 }
 
 /* Footer */
