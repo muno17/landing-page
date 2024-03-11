@@ -6,7 +6,7 @@
 body {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    min-height: 100%;
 }
 
 .top {
@@ -67,4 +67,19 @@ button {
     width: 96px;
     height: 32px;
     border-radius: 8px;
+}
+
+.contenttop {
+    display: flex;
+    flex-direction: column;
+}
+
+.contentimagescontainer {
+    display: flex;
+}
+
+.footer {
+    background-color: #1f2937;
+    color: lightgray;
+    text-align: center;
 }
