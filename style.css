@@ -14,8 +14,10 @@ body {
     color: white;
     display: flex;
     flex-direction: column;
-    padding: 48px;
+    padding-bottom: 64px;
     padding-top: 16px;
+    padding-left: 200px;
+    padding-right: 200px;
 }
 
 .header {
@@ -23,9 +25,19 @@ body {
     padding-bottom: 48px;
 }
 
-.headerlink, p {
+.headerlink,
+p {
     font-size: 18px;
     color: #e5e7eb;
+}
+
+.headerlink {
+    margin-left: 18px;
+}
+
+a {
+    color: lightgray;
+    text-decoration: none;
 }
 
 .headerlogo {
@@ -36,4 +48,23 @@ h1 {
     font-size: 48px;
     font-weight: 800;
     color: #f9faf8;
+}
+
+.subheader {
+    display: flex;
+    gap: 48px;
+}
+
+.subheadercontent {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+button {
+    background-color: #3882f6;
+    color: white;
+    width: 96px;
+    height: 32px;
+    border-radius: 8px;
 }
