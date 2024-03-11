@@ -27,7 +27,7 @@ body {
 }
 
 .headerlink,
-p {
+.subheadercontent > p {
     font-size: 18px;
     color: #e5e7eb;
 }
@@ -86,7 +86,7 @@ button {
 
 .contentimagescontainer {
     display: flex;
-    gap: 8px;
+    gap: 16px;
 }
 
 .contentimage {
@@ -94,9 +94,40 @@ button {
     flex-direction: column;
     gap: 4px;
     text-wrap: wrap;
-    height: 150px;
     width: 150px;
     text-align: center;
+}
+
+img {
+    width: 150px;
+    height: 100%;
+    border-style: solid;
+    border-width: 4px;
+    border-radius: 4px;
+    border-color: #3882f6;
+}
+
+.contentmid {
+    background-color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+}
+
+.contentmidcontainer {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    align-items: center;
+    width: 500px;
+    margin-top: 64px;
+    margin-bottom: 64px;
+    font-style: italic;
+}
+
+.quoteauthor {
+    font-weight: bold;
+    align-self: flex-end;
+    font-style: normal;
 }
 
 .footer {
