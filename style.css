@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: roboto, sans-serif;
 }
 
 body {
@@ -69,13 +70,33 @@ button {
     border-radius: 8px;
 }
 
-.contenttop {
+.content {
     display: flex;
     flex-direction: column;
 }
 
+.contenttop {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    margin-top: 16px;
+    margin-bottom: 32px;
+}
+
 .contentimagescontainer {
     display: flex;
+    gap: 8px;
+}
+
+.contentimage {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    text-wrap: wrap;
+    height: 150px;
+    width: 150px;
+    text-align: center;
 }
 
 .footer {
