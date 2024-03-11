@@ -6,4 +6,34 @@
 body {
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
+}
+
+.top {
+    background-color: #1f2937;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 48px;
+    padding-top: 16px;
+}
+
+.header {
+    display: flex;
+    padding-bottom: 48px;
+}
+
+.headerlink, p {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.headerlogo {
+    margin-right: auto;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: 800;
+    color: #f9faf8;
 }
