@@ -43,6 +43,9 @@ a {
 
 .headerlogo {
     margin-right: auto;
+    font-size: 32px;
+    font-family: ubuntu, sans-serif;
+    text-shadow: 1px 1px 6px black;
 }
 
 h1 {
@@ -53,13 +56,21 @@ h1 {
 
 .subheader {
     display: flex;
-    gap: 48px;
+    gap: 96px;
+    justify-content: center;
 }
 
 .subheadercontent {
     display: flex;
     flex-direction: column;
     gap: 8px;
+    width: 400px;
+    justify-content: center;
+}
+
+.subheaderimage {
+    width: 500px;
+    height: auto;
 }
 
 button {
@@ -86,21 +97,24 @@ button {
 
 .contentimagescontainer {
     display: flex;
-    gap: 16px;
+    gap: 48px;
 }
 
 .contentimage {
     display: flex;
     flex-direction: column;
-    gap: 4px;
+    gap: 8px;
     text-wrap: wrap;
     width: 150px;
     text-align: center;
 }
 
-img {
+.contentimage img {
     width: 150px;
-    height: 100%;
+    height: 150px;
+}
+
+img {
     border-style: solid;
     border-width: 4px;
     border-radius: 4px;
@@ -118,20 +132,40 @@ img {
     flex-direction: column;
     gap: 4px;
     align-items: center;
-    width: 500px;
+    width: 600px;
     margin-top: 64px;
     margin-bottom: 64px;
     font-style: italic;
+    font-weight: 200;
+    font-size: 36px;
 }
 
 .quoteauthor {
     font-weight: bold;
     align-self: flex-end;
     font-style: normal;
+    font-size: 24px;
 }
 
 .footer {
     background-color: #1f2937;
     color: lightgray;
     text-align: center;
+    padding: 16px;
+}
+
+.contentbottom {
+    display: flex;
+    justify-content: center;
+}
+
+.contentbottomcontainer {
+    background-color: #3882f6;
+    display: flex;
+    padding: 48px;
+    gap: 64px;
+    border-radius: 4px;
+    color: white;
+    margin-top: 64px;
+    margin-bottom: 64px;
 }
